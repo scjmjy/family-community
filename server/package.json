@@ -1,0 +1,40 @@
+{
+  "name": "family-community-server",
+  "version": "0.0.1",
+  "description": "以家庭为单位的社区生活，让世界暖和一点儿",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "serve-d": "tsc && set DEBUG=server* && set NODE_ENV=development && node dist/server.js",
+    "serve-p": "tsc && set DEBUG=server* && set NODE_ENV=production && node dist/server.js"
+  },
+  "author": "Ronnie Ming",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "chalk": "^4.1.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^2.4.6",
+    "mongoose": "^5.9.22",
+    "multer": "^1.4.2",
+    "rand-token": "^1.0.1",
+    "sharp": "^0.25.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/debug": "^4.1.5",
+    "@types/events": "^3.0.0",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mime": "^2.0.2",
+    "@types/mongoose": "^5.7.30",
+    "@types/multer": "^1.4.3",
+    "@types/sharp": "^0.25.0",
+    "@types/socket.io": "^2.1.8"
+  }
+}

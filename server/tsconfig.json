@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "rootDir": ".",
+        "outDir": "./dist",
+        "paths": {
+            "@/*": [
+                ".*"
+            ]
+        }
+    },
+    "include": [
+        "./**/*.ts",
+        "./**/*.json",
+        "tests/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

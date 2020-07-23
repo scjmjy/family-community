@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        div {
+            padding: 5px;
+        }
+        #div1 {
+            border: 1px solid red;
+            height: 50%;
+        }
+        #div2 {
+            border: 1px solid blue;
+            /* height: 40%; */
+        }
+        #div3 {
+            border: 1px solid pink;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.baidu.com" onclick="((event)=>{event.preventDefault(); alert(11)})(event)">a link</a>
+    <div id="div1">
+        <div id="div2">
+            <div id="div3">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
